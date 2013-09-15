@@ -9,6 +9,7 @@
 
 	Author: Joe Bialek
 	Twitter: @JosephBialek
+	Blog about this project: http://clymb3r.wordpress.com/2013/09/15/intercepting-password-changes-with-function-hooking/
 
 	Inspiration: http://carnal0wnage.attackresearch.com/2013/09/stealing-passwords-every-time-they.html
 */
