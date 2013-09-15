@@ -1,6 +1,18 @@
 // HookPasswordChange.cpp : Defines the exported functions for the DLL application.
 //
 
+/*
+	This should only be compiled as X64 preferrable Release mode only. This DLL will hook the PasswordChangeNotify function in rassfm.dll (in lsass).
+	Any time a user changes their password, it will get written to c:\windows\temp\passwords.txt
+
+	Please see my blog at clymb3r.wordpress.com for more information.
+
+	Author: Joe Bialek
+	Twitter: @JosephBialek
+
+	Inspiration: http://carnal0wnage.attackresearch.com/2013/09/stealing-passwords-every-time-they.html
+*/
+
 #include "stdafx.h"
 #include "HookPasswordChange.h"
 
